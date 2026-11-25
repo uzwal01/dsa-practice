@@ -1,0 +1,17 @@
+[project]
+name = "dsa-practice"
+version = "0.1.0"
+description = "Daily LeetCode practice — patterns for ML engineers"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["ruff", "mypy", "pytest"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
